@@ -38,7 +38,7 @@ There are a sequence of steps that we would like you to complete. We hope this w
 2. Devise a database schema to hold the data in the people and places CSV files, and apply it to the Postgres database. You may apply this schema via a script, via the Postgres command-line client, or via a GUI client.
 3. Create a Docker image for loading the CSV files, places.csv and people.csv, into the tables you have created in the database. Make sure the appropriate config is in the docker compose file. Your data ingest process can be implemented in any way that you like, as long as it runs within a Docker container. You may implement this via programme code in a language of your choice, or via the use of ETL tools.
 4. Create a Docker image for outputting a summary of content in the database. You may implement this using a programming language of your choice.
-5. The output can be visualized using a tool of your choicee
+5. The output JSON file can be visualized using a tool of your choice
 6. Share a link to your cloned Github repo with us so we can review your code ahead of your interview.
 
 We have provided an example schema and code that shows how to handle a simple data ingest and output.
