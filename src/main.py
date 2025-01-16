@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import csv
+import csv
 import json
 import sqlalchemy
 
